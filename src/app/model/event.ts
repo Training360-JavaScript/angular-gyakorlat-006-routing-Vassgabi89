@@ -4,5 +4,5 @@ export class Event {
   name: string = ''
   date: string = ''
   time: string = ''
-  location: Location = {address: '', city: '', country: ''}
+  location: Location = new Location()
 }
